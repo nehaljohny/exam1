@@ -67,7 +67,7 @@ void main() {
     ..fatherdetails("efg", 45)
     ..motherdetails("hij", 40);
 }*/
-/*///13. factorial
+///13. factorial
 import 'dart:io';
 void main() {
   print("Enter Your Number");
@@ -77,9 +77,9 @@ void main() {
 int factorial(int n){
   if (n==0){
     return 1;
-  }else{
+  }else{ return n*factorial(n-1);
   }
-}*/
+}
 /// 14.Sum of odd numbers
 /*void main() {
   int sumodd = 0;
@@ -93,7 +93,7 @@ int factorial(int n){
   print('sum of Odd numbers: $sumodd');
 }*/
 
-///14.
+///12
 void main() {
   var numbers = [-5,1,10,0,2,-4,0,3,5,8,28,-74,0,41,34,5,-9,62];
 
